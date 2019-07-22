@@ -1,3 +1,5 @@
+import UIKit
+
 public struct Colors {
     static let fallback: Colors.Flavor.Palette = Colors.Flavor.Palette(
         primary: UIColor(red: 0.0/255.0, green: 183.0/255.0, blue: 191.0/255.0, alpha: 1.0),
