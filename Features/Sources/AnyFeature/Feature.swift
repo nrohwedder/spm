@@ -1,5 +1,4 @@
-import Commons_LocationModule
-import Components_Theme
+import LocationModule
 
 public protocol Feature {
     var locationModule: LocationModule { get }

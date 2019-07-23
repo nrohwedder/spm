@@ -17,7 +17,7 @@
 		<key>Components.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>CoreLocationModule.xcscheme_^#shared#^_</key>
 		<dict>
@@ -29,10 +29,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Features.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>LocationModule.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>Mapbox.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 		<key>Multi-SPM-Package.xcscheme_^#shared#^_</key>
 		<dict>
@@ -57,12 +67,12 @@
 		<key>SomeFeature.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Theme.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>6</integer>
 		</dict>
 		<key>spm-Package.xcscheme_^#shared#^_</key>
 		<dict>
@@ -117,7 +127,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>Features</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>LocationModule</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>Mapbox</key>
 		<dict>
 			<key>primary</key>
 			<true/>

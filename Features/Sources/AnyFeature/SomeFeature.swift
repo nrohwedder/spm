@@ -1,5 +1,7 @@
-import Commons_LocationModule
-import Commons_CoreLocationModule
+import LocationModule
+import CoreLocationModule
+import B
+import A
 
 final class SomeFeature: Feature {
     var locationModule: LocationModule {

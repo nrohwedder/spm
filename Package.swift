@@ -5,33 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "Collection",
-    products: [
-    .library(
-        name: "LocationModule",
-        targets: ["Commons/LocationModule"]),
-    .library(
-        name: "CoreLocationModule",
-        targets: ["Commons/CoreLocationModule"]),
-    .library(
-        name: "Theme",
-        targets: ["Components/Theme"]),
-    .library(
-        name: "SomeFeature",
-        targets: ["Feature/SomeFeature"]),
-    ],
+    products: [],
     dependencies: [
-        .package(url: "https://github.com/ReactiveCocoa/ReactiveSwift.git", from: "5.0.0")
+        .package(path: "Commons"),
+        .package(path: "Components"),
+        .package(path: "Features"),
+        .package(path: "Mapbox")
     ],
-    targets: [
-    .target(
-        name: "Commons/LocationModule",
-        dependencies: ["ReactiveSwift"]),
-    .target(
-        name: "Commons/CoreLocationModule",
-        dependencies: ["ReactiveSwift", "Commons/LocationModule"]),
-    .target(
-        name: "Components/Theme"),
-    .target(
-        name: "Feature/SomeFeature")
-    ]
+    targets: []
 )
