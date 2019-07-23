@@ -1,3 +1,3 @@
-# Multi-SPM
+# spm
 
 A description of this package.

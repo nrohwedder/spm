@@ -1,6 +1,6 @@
 import ReactiveSwift
 import CoreLocation
-import LocationModule
+import Commons_LocationModule
 
 public class CoreLocationModule: NSObject, LocationModule {
 
